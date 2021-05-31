@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>links}}
+  </head>
+
+  <body>
+    {{>navbar}}
+
+    <!-- Main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- Left side div -->
+            <div class="col-md-12 col-12 align-items-center main_header_left">
+              <figure class="errimg">
+                <img
+                  src="img/error3.svg"
+                  alt="soumyo"
+                  class="img-fluid"
+                  title="Soumajit Das"
+                />
+              </figure>
+
+              <p>Welcome to Soumyo's World</p>
+              <h1>{{errorMsg}}</h1>
+              <a href="/"><button>Go Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    {{>footer}}
+
+  </body>
+</html>

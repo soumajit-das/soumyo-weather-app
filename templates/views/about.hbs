@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>links}}
+  </head>
+
+  <body>
+    {{>navbar}}
+
+    <!-- Main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- Left side div -->
+            <div class="col-md-6 col-12 main_header_right">
+              <figure>
+                <img
+                  src="img/about.svg"
+                  alt="soumyo"
+                  class="img-fluid"
+                  title="Soumajit Das"
+                />
+              </figure>
+            </div>
+
+            <!-- Right side div -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome to weather app</p>
+              <h1>
+                I am a <span class="text_colr">MERN Stack Developer</span> and a
+                B.tech student.
+              </h1>
+              <a href="#"><button>About Me</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    {{>footer}}
+  </body>
+</html>
